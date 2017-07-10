@@ -5,8 +5,8 @@
 <h1>My first PHP page</h1>
 
 <?php
-include "header.php";
 echo "Hello World! Today";
+include "header.php";
 ?>
 
 </body>
