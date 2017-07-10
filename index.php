@@ -12,12 +12,7 @@
 <?php
 $PageTitle ="New Page Title";
 
-function customPageHeader(){ ?>
-<?php }
 include_once('header.php');
-
-function customPageFooter(){ ?>
-<?php }
 include_once('footer.php');
 ?>
 
