@@ -10,8 +10,13 @@
 <h1>My first PHP page</h1>
 
 <?php
-echo "Hello World! Today";
-include "header.php";
+$PageTitle ="New Page Title";
+
+function customPageHeader(){?>
+  <!--Arbitrary HTML Tags-->
+<?php }
+
+include_once('header.php');
 ?>
 
 </body>
