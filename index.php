@@ -10,7 +10,8 @@
 <h1>My first PHP page</h1>
 
 <?php
-
+include('header.php');
+include_once('footer.php');
 ?>
 
 </body>
