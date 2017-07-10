@@ -10,8 +10,6 @@
 <h1>My first PHP page</h1>
 
 <?php
-$PageTitle ="New Page Title";
-
 include_once('header.php');
 include_once('footer.php');
 ?>
