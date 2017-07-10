@@ -13,7 +13,7 @@
 $PageTitle ="New Page Title";
 
 function customPageHeader(){?>
-  <!--Arbitrary HTML Tags-->
+  <h1> "HEADER RIGHT HERE" </h1>
 <?php }
 
 include_once('header.php');
