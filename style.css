@@ -1,13 +1,13 @@
 <head>
 <style>
 
-container {
+#container {
     display:flex; 
     flex-direction: column; 
     text-align:center;
 }
 
-body {
+#center {
 	background: lightblue;
 	height: 500px;
 	width: 80%;
