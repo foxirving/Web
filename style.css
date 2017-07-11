@@ -1,39 +1,40 @@
 <head>
 <style>
 
-h1 {
-    color: navy;
-    margin-left: 20px;
+container {
+    display:flex; 
+    flex-direction: column; 
+    text-align:center;
 }
 
 body {
+	order: 2;
 	background: lightblue;
 	height: 500px;
 	width: 80%;
 	margin: auto;
 	border-style: solid;
     border-width: 5px;
-    display: inline;
 }
 
 #header {
-   background: white;
-   height: 100px;
-   width: 80%;
-   margin: auto;
-   border-style: solid;
-   border-width: 5px;
-   display: inline;
+	order: 1;
+   	background: white;
+   	height: 100px;
+   	width: 80%;
+   	margin: auto;
+   	border-style: solid;
+   	border-width: 5px;
 }
 
 #footer {
-   background: black;
-   height: 100px;
-   width: 80%;
-   margin: auto;
-   border-style: solid;
-   border-width: 5px;
-   display: inline;
+	order: 3;
+  	background: black;
+   	height: 100px;
+   	width: 80%;
+   	margin: auto;
+   	border-style: solid;
+   	border-width: 5px;
 }
 
 </style>

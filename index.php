@@ -6,24 +6,22 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 </head> 
 
-<body>
+<div id="container">
 
 <!-- Page Header -->
 <?php
 include_once('header.php');
 ?>
 
+<body>
 
 
 
-
-
-
-
+</body>
 
 <!-- Page Footer -->
 <?php include_once('footer.php');
 ?>
 
-</body>
+</div>
 </html> 
