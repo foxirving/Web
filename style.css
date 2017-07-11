@@ -15,14 +15,14 @@ body {
 
 #header {
    background: white;
-   height: 200px;
+   height: 100px;
    width: 80%;
    margin: auto;
 }
 
 #footer {
    background: black;
-   height: 200px;
+   height: 100px;
    width: 80%;
    margin: auto;
 }
