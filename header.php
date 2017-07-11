@@ -5,4 +5,9 @@
 <?php 
 echo "Header"?>
 
+<body id="header">
+
+
+</body>
+
 </html>

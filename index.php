@@ -8,11 +8,21 @@
 
 <body>
 
-<h1>My first PHP page test</h1>
-
+<!-- Page Header -->
 <?php
 include_once('header.php');
-include_once('footer.php');
+?>
+
+
+
+
+
+
+
+
+
+<!-- Page Footer -->
+<?php include_once('footer.php');
 ?>
 
 </body>
