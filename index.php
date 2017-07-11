@@ -8,7 +8,7 @@
 
 <body>
 
-<h1>My first PHP page</h1>
+<h1>My first PHP page test</h1>
 
 <?php
 include_once('header.php');
