@@ -8,33 +8,33 @@ container {
 }
 
 body {
-	order: 2;
 	background: lightblue;
 	height: 500px;
 	width: 80%;
 	margin: auto;
 	border-style: solid;
     border-width: 5px;
+	order: 2;
 }
 
 #header {
-	order: 1;
    	background: white;
    	height: 100px;
    	width: 80%;
    	margin: auto;
    	border-style: solid;
    	border-width: 5px;
+	order: 1;
 }
 
 #footer {
-	order: 3;
   	background: black;
    	height: 100px;
    	width: 80%;
    	margin: auto;
    	border-style: solid;
    	border-width: 5px;
+	order: 3;
 }
 
 </style>

@@ -2,11 +2,10 @@
 <title>
 	<link href="style.css">
 </title>
-<?php 
-echo "Header"?>
 
 <body id="header">
 
+<h1> Header </h1>
 
 </body>
 

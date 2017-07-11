@@ -6,6 +6,8 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 </head> 
 
+<body>
+
 <div id="container">
 
 <!-- Page Header -->
@@ -13,15 +15,14 @@
 include_once('header.php');
 ?>
 
-<body>
-
-
-
-</body>
+<div id="center">
+	<h1> Body </h1>
+</div>
 
 <!-- Page Footer -->
 <?php include_once('footer.php');
 ?>
-
 </div>
+
+</body>
 </html> 
