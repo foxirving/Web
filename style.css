@@ -1,6 +1,19 @@
 <head>
 <style>
 
+element {
+	--standard-height = 100px;
+	--relative-width = 80%;
+	
+	--color-layer-one = black;
+	--color-layer-two = darkgray;
+	--color-layer-three = white;
+}
+
+body {
+	background: var(--color-layer-one);
+}
+
 #container {
     display:flex; 
     flex-direction: column; 
@@ -8,7 +21,7 @@
 }
 
 #center {
-	background: lightblue;
+	background: var(--color-layer-three);
 	height: 500px;
 	width: 80%;
 	margin: auto;
@@ -18,8 +31,8 @@
 }
 
 #header {
-   	background: white;
-   	height: 100px;
+   	background: var(--color-layer-two);
+   	height: var(--standard-height);
    	width: 80%;
    	margin: auto;
    	border-style: solid;
@@ -28,8 +41,8 @@
 }
 
 #footer {
-  	background: black;
-   	height: 100px;
+  	background: var(--color-layer-two);
+   	height: var(--standard-height);
    	width: 80%;
    	margin: auto;
    	border-style: solid;
