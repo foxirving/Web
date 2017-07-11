@@ -1,7 +1,7 @@
 <head>
 <style>
 
-element {
+:root {
 	--standard-height = 100px;
 	--relative-width = 80%;
 	
@@ -14,13 +14,13 @@ body {
 	background: var(--color-layer-one);
 }
 
-#container {
+.container {
     display:flex; 
     flex-direction: column; 
     text-align:center;
 }
 
-#center {
+.center {
 	background: var(--color-layer-three);
 	height: 500px;
 	width: 80%;
@@ -30,7 +30,7 @@ body {
 	order: 2;
 }
 
-#header {
+.header {
    	background: var(--color-layer-two);
    	height: var(--standard-height);
    	width: 80%;
@@ -40,7 +40,7 @@ body {
 	order: 1;
 }
 
-#footer {
+.footer {
   	background: var(--color-layer-two);
    	height: var(--standard-height);
    	width: 80%;
