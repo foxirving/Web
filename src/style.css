@@ -6,7 +6,6 @@ body {
 }
 div {
   display: inline;
-  margin: auto;
 }
 #center {
   background-color: blue;
@@ -20,6 +19,7 @@ div {
   border-width: 5px;
   width: 80%;
   height: 100px;
+  margin: auto;
 }
 #footer {
   background-color: white;
