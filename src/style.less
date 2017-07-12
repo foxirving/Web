@@ -17,6 +17,11 @@ body {
 div {
 	background-color: red;
 	display: block;
+	border-style: solid;
+    border-width: 5px;
+    width: 80%;
+	margin: @margin;
+	position: absolute;
 }
 
 .container {
@@ -26,35 +31,14 @@ div {
 .center {
 	background-color: @color-layer-two;
 	height: 500px;
-	width: 80%;
-	margin: @margin;
-	border-style: solid;
-    border-width: 5px;
-	position: absolute;
-	top: 130px;
-	left: 0;
 }
 
 .header {
    	background-color: @color-layer-two;
    	height: @standard-height;
-   	width: 80%;
-   	margin: @margin;
-   	border-style: solid;
-   	border-width: 5px;
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	overflow: hidden;
 }
 
 .footer {
   	background-color: @color-layer-two;
    	height: @standard-height;
-   	width: 80%;
-   	margin: @margin;
-   	border-style: solid;
-   	border-width: 5px;
-	order: 3;
 }
