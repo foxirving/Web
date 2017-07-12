@@ -1,6 +1,8 @@
 /*I am using LESS and Xtext to make this CSS file dynamically have variables.*/
 body {
   background: blue;
+  margin: 0;
+  height: 100%;
 }
 div {
   display: inline;
