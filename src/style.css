@@ -1,12 +1,36 @@
-
-p {
-  background-color: #ffffff;
-  color: #1A237E;
-  padding: 15px;
+/*I am using LESS and Xtext to make this CSS file dynamically have variables.*/
+body {
+  background: black;
 }
-ul {
-  background-color: #ffffff;
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-li {
-  color: #1A237E;
+.center {
+  background: darkgray;
+  height: 500px;
+  width: 80%;
+  margin: auto;
+  border-style: solid;
+  border-width: 5px;
+  order: 2;
+}
+.header {
+  background: darkgray;
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  border-style: solid;
+  border-width: 5px;
+  order: 1;
+}
+.footer {
+  background: darkgray;
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  border-style: solid;
+  border-width: 5px;
+  order: 3;
 }
