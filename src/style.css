@@ -11,18 +11,18 @@ div {
   margin: auto;
   position: absolute;
 }
-.container {
+#container {
   position: fixed;
 }
-.center {
+#center {
   background-color: darkgray;
   height: 500px;
 }
-.header {
+#header {
   background-color: darkgray;
   height: 100px;
 }
-.footer {
+#footer {
   background-color: darkgray;
   height: 100px;
 }
