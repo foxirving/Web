@@ -17,9 +17,6 @@ include_once('header.php');
 <!-- 	<h1> Body </h1> -->
 <!-- </div> -->
 
-<!-- <!-- Page Footer --> -->
-// <?php include_once('footer.php');
-// ?>
 
 </body>
 </html> 
