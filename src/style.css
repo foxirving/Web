@@ -3,8 +3,6 @@ body {
   background: blue;
   height: 100%;
   width: 100%;
-}
-div {
   display: inline;
 }
 #center {
@@ -21,6 +19,7 @@ div {
   width: 80%;
   height: 100px;
   margin: auto;
+  display: inline;
 }
 #footer {
   background-color: white;
