@@ -1,6 +1,6 @@
 /*I am using LESS and Xtext to make this CSS file dynamically have variables.*/
 body {
-  background: black;
+  background: blue;
 }
 .container {
   display: flex;
