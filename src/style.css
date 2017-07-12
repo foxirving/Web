@@ -15,7 +15,7 @@ div {
   height: 500px;
 }
 #header {
-  background-color: darkgray;
+  background: darkgray;
   border-style: solid;
   border-width: 5px;
   width: 80%;
