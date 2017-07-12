@@ -10,6 +10,10 @@
 
 <div id="container">
 
+	<div id="header">
+		<p> HERE </p>
+	</div>
+
 <!-- Page Header -->
 <?php
 include_once('header.php');
