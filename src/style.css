@@ -3,9 +3,7 @@ body {
   background: blue;
 }
 .container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  position: fixed;
 }
 .center {
   background: darkgray;
@@ -14,7 +12,9 @@ body {
   margin: auto;
   border-style: solid;
   border-width: 5px;
-  order: 2;
+  position: absolute;
+  top: 130px;
+  left: 0;
 }
 .header {
   background: darkgray;
@@ -23,7 +23,10 @@ body {
   margin: auto;
   border-style: solid;
   border-width: 5px;
-  order: 1;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .footer {
   background: darkgray;
