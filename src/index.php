@@ -13,10 +13,6 @@
 include_once('header.php');
 ?>
 
-<!-- <div id="center"> -->
-<!-- 	<h1> Body </h1> -->
-<!-- </div> -->
-
 
 </body>
 </html> 
