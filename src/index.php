@@ -12,7 +12,6 @@
 <?php
 include_once('header.php');
 include_once('home.php');
-include_once('footer.php');
 ?>
 
 <?php 
@@ -35,8 +34,9 @@ if (file_exists($file)){
 }
 include("pages/".$pagename.".php");
 }else{
-    echo 'Anything you want displayed in the content of your main page would go here';
 }
+
+include_once('footer.php');
 ?>
 
 
