@@ -7,9 +7,10 @@
 
 
 <div id="header">
-
+<center>
 <p>Fox Irving</p>
-
+</center>
+<br>
 <center>
 <a id="headerLink" href="index.php?page=home">Home</a>
 <a id="headerLink" href="index.php?page=resume">Resume</a>

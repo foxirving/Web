@@ -5,6 +5,9 @@ body {
   width: 100%;
   display: inline;
 }
+p {
+  font-size: 40px;
+}
 #center {
   background-color: white;
   border-style: solid;
