@@ -16,7 +16,7 @@
 <a id="headerLink" href="index.php?page=resume">Resume</a>
 <a id="headerLink" href="index.php?page=repositories">Repositories</a>
 <a id="headerLink" href="index.php?page=gallery">Gallery</a>
-<a id="headerLink" href="index.php?page=contact">Contact</a>
+<a id="headerLink" href="index.php?page=contact">Contact Me</a>
 </center>
 
 </div>
