@@ -2,10 +2,13 @@
 
 @standard-height: 100px;
 @relative-width: 60%;
+
 @margin: auto;
 @margin-25: 0px 25px 0px 25px;
 
 @large-font-size: 30px;
+
+@standard-boarder-size: 2px;
 
 @color-layer-one: darkgray;
 @color-layer-two: lightgray;
@@ -27,8 +30,8 @@ p {
 
 #center {
 	background-color: @color-layer-three;
-	border-style: solid;
-	border-width: 5px;
+	border-style: double;
+	border-width: @standard-boarder-size;
 	width: @relative-width;
 	height: 800px;
 	margin: @margin;
@@ -38,7 +41,7 @@ p {
 #header {
 	background-color: @color-layer-two;
 	border-style: solid;
-	border-width: 5px;
+	border-width: @standard-boarder-size;
 	width: @relative-width;
 	height: @standard-height;
 	margin: @margin;
@@ -54,7 +57,7 @@ p {
 #footer {
 	background-color: @color-layer-two;
 	border-style: solid;
-	border-width: 5px;
+	border-width: @standard-boarder-size;
 	width: @relative-width;
 	height: @standard-height;
 	margin: @margin;
