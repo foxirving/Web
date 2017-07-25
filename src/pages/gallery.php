@@ -9,6 +9,8 @@
 
 <p>Gallery, Center</p>
 
+<img src="../gallery/art.jpg"/>
+
 </div>
 </body>
 
