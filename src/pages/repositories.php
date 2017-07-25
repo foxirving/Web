@@ -10,7 +10,7 @@
 <?php 
 $dir = "../repositories";
 $files = scandir($dir);
-print_r($files);
+echo $files;
 ?>
 
 <p>Respository, Center</p>
