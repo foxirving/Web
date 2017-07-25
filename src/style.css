@@ -1,12 +1,12 @@
 /*I am using LESS and Xtext to make this CSS file dynamically have variables.*/
 body {
-  background: gray;
+  background: darkgray;
   height: 100%;
   width: 100%;
   display: inline;
 }
 #center {
-  background-color: gray;
+  background-color: white;
   border-style: solid;
   border-width: 5px;
   width: 60%;
@@ -15,7 +15,7 @@ body {
   display: block;
 }
 #header {
-  background-color: darkgray;
+  background-color: gray;
   border-style: solid;
   border-width: 5px;
   width: 60%;
@@ -24,7 +24,7 @@ body {
   display: block;
 }
 #footer {
-  background-color: white;
+  background-color: gray;
   border-style: solid;
   border-width: 5px;
   width: 60%;
