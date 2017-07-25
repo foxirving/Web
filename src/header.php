@@ -8,11 +8,13 @@
 
 <div id="header">
 
-<a href="index.php?page=home">Home</a>
-<a href="index.php?page=resume">Resume</a>
-<a href="index.php?page=repositories">Repositories</a>
-<a href="index.php?page=gallery">Gallery</a>
-<a href="index.php?page=contact">Contact</a>
+<center>
+<a id="headerLink" href="index.php?page=home">Home</a>
+<a id="headerLink" href="index.php?page=resume">Resume</a>
+<a id="headerLink" href="index.php?page=repositories">Repositories</a>
+<a id="headerLink" href="index.php?page=gallery">Gallery</a>
+<a id="headerLink" href="index.php?page=contact">Contact</a>
+</center>
 
 </div>
 
