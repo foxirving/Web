@@ -1,0 +1,8 @@
+Name:"Hidden Markov Model"
+Date:"July, 2017"
+Description:" A Markov Model, in the context of Molecular Genetics is 
+nothing more than a series of probabilities which tell you how likely 
+a particular sequence is to have descended from a particular 
+"Ancestral" sequence, or vice versa, what the most probable "Ancestral" 
+sequence is."
+Source:"https://github.com/foxirving/HMM"
