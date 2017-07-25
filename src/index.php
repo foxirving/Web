@@ -2,7 +2,7 @@
 <html>
 
  <head>
- <title> Community Sketch </title>
+ <title> Fox Irving </title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head> 
 
