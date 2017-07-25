@@ -8,8 +8,8 @@
 
 <div id="header">
 
-<a href="index.php?page=home">Home</a>
-<a href="index.php?page=resume">Resume</a>
+<a href="index.php?page=home.php">Home</a>
+<a href="index.php?page=resume.php">Resume</a>
 <a href="index.php?page=repositories">Repositories</a>
 <a href="index.php?page=gallery">Gallery</a>
 <a href="index.php?page=contact">Contact</a>
