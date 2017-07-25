@@ -7,7 +7,7 @@
 
 
 <div id="header">
-<h1> Header </h1>
+<p> Header </p>
 <a href="index.php?page=home">Home</a>
 <a href="index.php?page=resume">Resume</a>
 <a href="index.php?page=repositories">Repositories</a>

@@ -2,9 +2,11 @@
 <title>
 	<link href="style.css">
 </title>
-<body id="footer">
+<body>
 
-<h1> Footer </h1>
+<div id="footer"> 
+<p> Footer </p>
+</div>
 
 </body>
 </html>

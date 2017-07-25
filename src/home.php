@@ -3,10 +3,13 @@
 	<link href="style.css">
 </title>
 
-<body id="home">
+<body>
 
-<h1> Home </h1>
+<div id="#center">
 
+<p>Home, Center</p>
+
+</div>
 </body>
 
 </html>
