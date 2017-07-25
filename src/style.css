@@ -11,6 +11,8 @@ body {
   border-width: 5px;
   width: 80%;
   height: 500px;
+  margin: auto;
+  display: block;
 }
 #header {
   background-color: darkgray;
@@ -19,7 +21,7 @@ body {
   width: 80%;
   height: 100px;
   margin: auto;
-  display: inline;
+  display: block;
 }
 #footer {
   background-color: white;
@@ -27,4 +29,6 @@ body {
   border-width: 5px;
   width: 80%;
   height: 100px;
+  margin: auto;
+  display: block;
 }

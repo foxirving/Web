@@ -2,44 +2,44 @@
 
 @standard-height: 100px;
 @relative-width: 80%;
-
 @margin: auto;
-	
 @color-layer-one: gray;
 @color-layer-two: darkgray;
 @color-layer-three: white;
-
-
 body {
 	background: @color-layer-one;
-    height: 100%;
-    width: 100%;
-    display: inline;
+	height: 100%;
+	width: 100%;
+	display: inline;
 }
-
 
 #center {
 	background-color: @color-layer-one;
 	border-style: solid;
-    border-width: 5px;
-    width: 80%;
+	border-width: 5px;
+	width: 80%;
 	height: 500px;
+	margin: @margin;
+	display: block;
 }
 
 #header {
-   	background-color: @color-layer-two;
-   	border-style: solid;
-    border-width: 5px;
-    width: 80%;
-   	height: @standard-height;
-   	margin: @margin;
-   	display: inline;
+	background-color: @color-layer-two;
+	border-style: solid;
+	border-width: 5px;
+	width: 80%;
+	height: @standard-height;
+	margin: @margin;
+	display: block;
 }
 
 #footer {
-  	background-color: @color-layer-three;
-  	border-style: solid;
-    border-width: 5px;
-    width: 80%;
-   	height: @standard-height;
+	background-color: @color-layer-three;
+	border-style: solid;
+	border-width: 5px;
+	width: 80%;
+	height: @standard-height;
+	margin: @margin;
+	display: block;
 }
+
