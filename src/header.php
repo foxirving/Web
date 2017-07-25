@@ -8,6 +8,8 @@
 
 <div id="header">
 
+<p>Fox Irving</p>
+
 <center>
 <a id="headerLink" href="index.php?page=home">Home</a>
 <a id="headerLink" href="index.php?page=resume">Resume</a>
