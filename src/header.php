@@ -3,7 +3,7 @@
 	<link href="style.css">
 </title>
 
-<body id="header">
+<body>
 
 <h1> Header </h1>
 

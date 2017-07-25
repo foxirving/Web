@@ -40,6 +40,5 @@ include("pages/".$pagename.".php");
 ?>
 
 
-
 </body>
 </html> 
