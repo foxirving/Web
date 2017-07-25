@@ -6,7 +6,7 @@ body {
   display: inline;
 }
 p {
-  font-size: 40px;
+  font-size: 30px;
 }
 #center {
   background-color: white;
@@ -29,7 +29,7 @@ p {
 #headerLink {
   color: black;
   text-decoration: none;
-  margin: 25px 25px 25px 25px;
+  margin: 0px 25px 0px 25px;
 }
 #footer {
   background-color: lightgray;
