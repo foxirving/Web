@@ -6,8 +6,24 @@
 <body>
 
 <div id="center">
-
-<p>Resume, Center</p>
+	<div>
+		<p> Description </p>
+	</div>
+	<div>
+		<p> Education </p>
+	</div>
+	<div>
+		<p> Projects </p>
+	</div>
+	<div>
+		<p> Work History </p>
+	</div>
+	<div>
+		<p> Extra Curriculars </p>
+	</div>
+	<div>
+		<p> Awards </p>
+	</div>
 
 </div>
 </body>
