@@ -5,7 +5,7 @@
 
 <body>
 
-<div id="#center">
+<div id="center">
 
 <p>Home, Center</p>
 
