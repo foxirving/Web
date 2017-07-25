@@ -9,7 +9,7 @@
 
 <p>Gallery, Center</p>
 
-<img src="/var/www/html/website/src/gallery/art.jpg" alt="Smiley face" height="42" width="42"/>
+<img src="gallery/art.jpg" alt="Smiley face" height="42" width="42"/>
 
 </div>
 </body>
