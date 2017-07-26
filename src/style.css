@@ -68,8 +68,8 @@ img {
   float: left;
 }
 #repository-div {
-  width: 60%;
-  height: 100%;
+  width: 100%;
+  height: 15%;
   background-color: #ff0000;
 }
 #repository-center {
