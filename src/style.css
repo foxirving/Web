@@ -16,7 +16,7 @@ p {
   width: 70%;
   height: 800px;
   margin: auto;
-  display: block;
+  display: inline-block;
 }
 #header {
   background-color: lightgray;
