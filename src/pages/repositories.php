@@ -21,7 +21,7 @@ foreach ($files as &$data) {
 	if ($data != '.' || $data != '..'){
 		$text = file_get_contents($dir . $data);
 		?>
-     	 <div id="repository-div" style="font-size: 36px;">
+     	 <div id="repository-div">
        		<?php echo $text;
         ?>
    		 </div>
