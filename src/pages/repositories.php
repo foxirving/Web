@@ -22,7 +22,7 @@ $dir = "repositories/";
 if (is_dir($dir)){
   if ($dh = opendir($dir)){
     while (($file = readdir($dh)) !== false){
-    	if ($file != "."){
+    	if ($file != "." || $file != ".."){
     	$text = file_get_contents($dir . $file);
     	?>
      	 <div id="repository-div">
