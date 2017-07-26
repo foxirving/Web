@@ -8,7 +8,7 @@
 <div id="center">
 
 <?php 
-$dir = "repositories/";
+$dir = "repositories";
 $files = scandir($dir);
 echo "<p id = 'id_name'>{$files[array_rand($strings)]}</p>";
 ?>
