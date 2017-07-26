@@ -19,7 +19,7 @@ $data = file_get_contents($dir . $files[2]);
 echo $data;
 
 $similarity = 75;
-echo "<div class=\"repository-div\" style=\"width: <?php echo $similarity; ?>\%;\">";
+echo "<div class=\"repository-div\" style=\"width: <?php echo $similarity; ?>\%;\"> <\div>";
 ?>
 
 
