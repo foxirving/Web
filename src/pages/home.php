@@ -13,7 +13,7 @@
 <div id="home-left">
 	<center>
 	<img alt="My Photo" src="images/MyPhoto.jpg">
-		
+	<br>	
 	 <?php
 	$homepage = file_get_contents('text/AboutMe.txt');
 	echo $homepage;
