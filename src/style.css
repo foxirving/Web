@@ -16,7 +16,7 @@ p {
   width: 70%;
   height: 800px;
   margin: auto;
-  display: inline-block;
+  display: block;
 }
 #header {
   background-color: lightgray;
@@ -47,7 +47,7 @@ p {
   width: 30%;
   height: 100%;
   background-color: #ff0000;
-  float: left;
+  float: right;
 }
 #homeDivLeft {
   height: 100%;
