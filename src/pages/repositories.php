@@ -9,13 +9,14 @@
 
 <div id="repository-center">
 
+<div
+
+<p>Description</p>
+
+</div>
 <?php 
 $dir = "repositories/";
 $files = scandir($dir);
-print_r($files);
-echo "<p>{$files[2]}</p>";
-
-
 
 foreach ($files as &$data) {
 	if ($data != "." || $data !=  ".."){
