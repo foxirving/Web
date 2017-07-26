@@ -2,20 +2,14 @@
 
 @standard-height: 100px;
 @relative-width: 70%;
-
 @margin: auto;
 @margin-25: 0px 25px 0px 25px;
-
 @large-font-size: 30px;
-
 @standard-boarder-size: 2px;
-
 @color-layer-one: darkgray;
 @color-layer-two: lightgray;
 @color-layer-three: white;
-
 @color-text-one: black;
-
 body {
 	background: @color-layer-one;
 	height: 100%;
@@ -62,5 +56,19 @@ p {
 	height: @standard-height;
 	margin: @margin;
 	display: block;
+}
+
+#homeDivRight {
+	border-style: solid;
+	border-width: @standard-boarder-size;
+	width: 40%;
+	background-color:#ff0000;
+}
+
+#homeDivLeft {
+	border-style: solid;
+	border-width: @standard-boarder-size;
+	float: left;
+	width: 60%;
 }
 
