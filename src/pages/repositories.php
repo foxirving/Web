@@ -18,7 +18,7 @@ echo "<p>{$files[2]}</p>";
 
 
 foreach ($files as &$data) {
-	if ($data != '.' || $data != '..'){
+	if ($data != "." || $data !=  ".."){
 		$text = file_get_contents($dir . $data);
 		?>
      	 <div id="repository-div">
