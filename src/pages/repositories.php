@@ -11,9 +11,9 @@
 $dir = "repositories/";
 $files = scandir($dir);
 print_r($files);
-echo "<p>{$files[array_rand($files)]}</p>";
+echo "<p>{$files[2]}</p>";
 
-$data = file_get_contents($dir + 'HMM.txt');
+$data = file_get_contents('repositories/HMM.txt');
 echo $data;
 ?>
 
