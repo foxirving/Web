@@ -14,15 +14,16 @@
 	<center>
 	<img alt="My Photo" src="images/MyPhoto.jpg">
 	<br>	
-	 <?php
-	$homepage = file_get_contents('text/AboutMe.txt');
-	echo $homepage;
-	?>
+	<a href="https://github.com/foxirving">GitHub</a>
+	<a href="https://www.linkedin.com/in/amy-irving-06732b100/">LinkedIn</a>
 	</center>
 </div>
 
 <div id="home-right">
-	<p> Right </p>
+	<?php
+	$homepage = file_get_contents('text/AboutMe.txt');
+	echo $homepage;
+	?>
 </div>
 
 
