@@ -13,7 +13,7 @@ $files = scandir($dir);
 print_r($files);
 echo "<p>{$files[array_rand($files)]}</p>";
 
-$data = ffile_get_contents($dir + '/HMM.txt');
+$data = ffile_get_contents($dir + 'HMM.txt');
 echo $data;
 ?>
 
