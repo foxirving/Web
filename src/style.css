@@ -43,8 +43,6 @@ p {
 }
 #home-center {
   background-color: white;
-  border-style: double;
-  border-width: 2px;
   width: 70%;
   height: 800px;
   margin: auto;

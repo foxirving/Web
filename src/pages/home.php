@@ -5,6 +5,9 @@
 
 <body>
 
+
+<div id="center">
+
 <div id="home-center">
 
 <div id="home-right">
@@ -19,7 +22,7 @@
 	?>
 </div>
 
-
+</div>
 
 
 </div>

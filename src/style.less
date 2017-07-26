@@ -1,6 +1,7 @@
 /*I am using LESS and Xtext to make this CSS file dynamically have variables.*/
 
 @standard-height: 100px;
+@center-height: 800px;
 @relative-width: 70%;
 @margin: auto;
 @margin-25: 0px 25px 0px 25px;
@@ -27,7 +28,7 @@ p {
 	border-style: double;
 	border-width: @standard-boarder-size;
 	width: @relative-width;
-	height: 800px;
+	height: @center-height;
 	margin: @margin;
 	display: block;
 }
@@ -60,10 +61,8 @@ p {
 
 #home-center {
 	background-color: @color-layer-three;
-	border-style: double;
-	border-width: @standard-boarder-size;
 	width: @relative-width;
-	height: 800px;
+	height: @center-height;
 	margin: @margin;
 	display: inline-block;
 }
