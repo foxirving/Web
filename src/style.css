@@ -52,6 +52,7 @@ p {
   width: 70%;
   height: 100%;
   background-color: #ff0000;
+  float: right;
 }
 #home-left {
   width: 30%;
