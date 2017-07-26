@@ -15,10 +15,19 @@ $files = scandir($dir);
 print_r($files);
 echo "<p>{$files[2]}</p>";
 
-$data = file_get_contents($dir . $files[2]);
-echo $data;
 
-echo "<div class=\"repository-div\"> <\div>";
+
+foreach ($files as &$data) {
+	if ($data != '.' || $data != '..'){
+		$text = file_get_contents($dir . $data);
+		?>
+     	 <div id="repository-div" style="font-size: 36px;">
+       		<?php echo $text;
+        ?>
+   		 </div>
+    	<?php
+    }
+}
 ?>
 
 
