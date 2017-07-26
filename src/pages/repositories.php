@@ -10,7 +10,7 @@
 <?php 
 $dir = "repositories";
 $files = scandir($dir);
-echo "<p id = 'id_name'>{$files[array_rand($strings)]}</p>";
+echo "<p>{$files[array_rand($files)]}</p>";
 ?>
 
 <p>Respository, Center</p>
