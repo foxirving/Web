@@ -22,6 +22,7 @@ $dir = "repositories/";
 if (is_dir($dir)){
   if ($dh = opendir($dir)){
     while (($file = readdir($dh)) !== false){
+    	if ($file != "."){
     	$text = file_get_contents($dir . $file);
     	?>
      	 <div id="repository-div">
@@ -29,8 +30,9 @@ if (is_dir($dir)){
         ?>
    		 </div>
     	<?php
-    }
-    closedir($dh);
+    	}
+   	}
+   closedir($dh);
   }
 }
 ?>
