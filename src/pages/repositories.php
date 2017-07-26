@@ -14,23 +14,26 @@
 <p>Description</p>
 
 </div>
-<?php 
-$dir = "repositories/";
-$files = scandir($dir);
 
-foreach ($files as &$data) {
-	if ($data != "." || $data !=  ".."){
-		$text = file_get_contents($dir . $data);
-		?>
+<?php
+$dir = "repositories/";
+
+// Open a directory, and read its contents
+if (is_dir($dir)){
+  if ($dh = opendir($dir)){
+    while (($file = readdir($dh)) !== false){
+    	$text = file_get_contents($dir . $file);
+    	?>
      	 <div id="repository-div">
        		<?php echo $text;
         ?>
    		 </div>
     	<?php
     }
+    closedir($dh);
+  }
 }
 ?>
-
 
 
 </div>
