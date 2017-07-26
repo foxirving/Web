@@ -9,9 +9,11 @@
 
 <div id="repository-center">
 
+<center>
+
 <div
 
-<p>Description</p>
+<p id="repository-div">Description</p>
 
 </div>
 
@@ -37,6 +39,7 @@ if (is_dir($dir)){
 }
 ?>
 
+</center>
 
 </div>
 </div>
