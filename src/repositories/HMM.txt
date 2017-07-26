@@ -1,5 +1,6 @@
 Name:"Hidden Markov Model"
 Date:"July, 2017"
+Type:"NLP"
 Description:" A Markov Model, in the context of Molecular Genetics is 
 nothing more than a series of probabilities which tell you how likely 
 a particular sequence is to have descended from a particular 
