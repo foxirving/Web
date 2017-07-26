@@ -7,6 +7,8 @@
 
 <div id="center">
 
+<div id="repository-center">
+
 <?php 
 $dir = "repositories/";
 $files = scandir($dir);
@@ -22,7 +24,7 @@ echo "<div class=\"repository-div\" style=\"width: <?php echo $similarity; ?>\%;
 
 
 
-
+</div>
 </div>
 </body>
 
