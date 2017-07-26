@@ -45,10 +45,12 @@ p {
   border-style: solid;
   border-width: 2px;
   width: 30%;
+  height: 100%;
   background-color: #ff0000;
   display: inline-block;
 }
 #homeDivLeft {
+  height: 100%;
   border-style: solid;
   border-width: 2px;
   float: left;
