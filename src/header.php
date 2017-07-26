@@ -8,7 +8,7 @@
 
 <div id="header">
 <center>
-<p>Fox Irving</p>
+<p id="text-large">Fox Irving</p>
 </center>
 <br>
 <center>

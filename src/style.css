@@ -5,16 +5,16 @@ body {
   width: 100%;
   display: inline;
 }
-p {
-  font-size: 40px;
-  margin: 0;
-}
 img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   margin: 25px;
   width: 60%;
+}
+#text-large {
+  font-size: 40px;
+  margin: 0;
 }
 #center {
   background-color: white;
