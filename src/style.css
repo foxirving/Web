@@ -44,12 +44,14 @@ p {
 #homeDivRight {
   border-style: solid;
   border-width: 2px;
-  width: 40%;
+  width: 30%;
   background-color: #ff0000;
+  display: inline-block;
 }
 #homeDivLeft {
   border-style: solid;
   border-width: 2px;
   float: left;
-  width: 60%;
+  width: 70%;
+  display: inline-block;
 }
