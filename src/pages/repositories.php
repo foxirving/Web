@@ -8,8 +8,9 @@
 <div id="center">
 
 <?php 
-$dir = "repositories";
+$dir = "repositories/";
 $files = scandir($dir);
+print_r($files);
 echo "<p>{$files[array_rand($files)]}</p>";
 ?>
 
