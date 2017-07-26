@@ -5,17 +5,13 @@
 
 <body>
 
-<div id="center">
+<div id="home-center">
 
-<div>
-
-</div>
-
-<div id="homeDivRight">
+<div id="home-right">
 	<p> Right </p>
 </div>
 
-<div id="homeDivLeft">
+<div id="home-left">
 	<p> left </p>
 	 <?php
 	$homepage = file_get_contents('text/AboutMe.txt');
