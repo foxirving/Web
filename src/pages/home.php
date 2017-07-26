@@ -10,10 +10,6 @@
 
 <div id="home-center">
 
-<div id="home-right">
-	<p> Right </p>
-</div>
-
 <div id="home-left">
 	<p> left </p>
 	 <?php
@@ -21,6 +17,12 @@
 	echo $homepage;
 	?>
 </div>
+
+<div id="home-right">
+	<p> Right </p>
+</div>
+
+
 
 </div>
 
