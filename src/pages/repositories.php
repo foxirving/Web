@@ -14,7 +14,7 @@ print_r($files);
 echo "<p>{$files[array_rand($files)]}</p>";
 
 $data = file_get_contents($dir + $files[2]);
-print($data);
+echo $data;
 ?>
 
 <p>Respository, Center</p>
