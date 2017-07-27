@@ -19,16 +19,9 @@
 
 <?php
 $myClass = new Java ( “java / FileReader” );
-
 $myClass->loadFile ( “repositories / HMM . txt” );
 
-if ($myClass->FileExists ()) {
-	echo "Files Size is " . $myClass->getFileSize () . "<br>";
-	echo "File path is  " . $myClass->getFilePath ();
-} else {
-	echo "<p> Sorry, the file " . $myClass->getFilePath () . " could not
-	be found </p>";
-}
+echo exec($myClass->getFileSize());
 
 ?>
 
