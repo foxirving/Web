@@ -15,6 +15,25 @@ include('home.php');
 ?>
 
 <?php 
+
+$myClass = new Java(“FileReader”);
+
+$myClass->loadFile(“repositories/HMM.txt”);
+
+if($myClass->FileExists())
+{
+	echo "Files Size is ” . $myClass->getFileSize() . “<br>";
+	echo "File path is " . $myClass->getFilePath();
+	
+}
+else
+{
+	echo "Sorry, the file " . $myClass->getFilePath() . " could not
+	be found"; }
+	
+
+
+
 error_reporting(E_ALL ^ E_NOTICE); 
 function open_page($string){
     if (preg_match("/^[a-zA-Z]+$/", $string)){
