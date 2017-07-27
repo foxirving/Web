@@ -1,6 +1,6 @@
 <html>
 <head>
-	<link href="style.css">
+<link href="style.css">
 </head>
 
 <body>
@@ -16,14 +16,6 @@
 				<p id="repository-div" margin="20px">Description</p>
 
 			</div>
-
-<?php
-$myClass = new Java ( “java / FileReader” );
-$myClass->loadFile ( “repositories / HMM . txt” );
-
-echo exec($myClass->getFileSize());
-
-?>
 
 
 <?php
