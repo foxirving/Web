@@ -26,8 +26,8 @@ if ($myClass->FileExists ()) {
 	echo "Files Size is " . $myClass->getFileSize () . "<br>";
 	echo "File path is  " . $myClass->getFilePath ();
 } else {
-	echo "Sorry, the file " . $myClass->getFilePath () . " could not
-	be found";
+	echo "<p> Sorry, the file " . $myClass->getFilePath () . " could not
+	be found </p>";
 }
 
 ?>
