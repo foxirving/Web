@@ -1,8 +1,7 @@
 <html>
-<title>
+<head>
 	<link href="style.css">
-</title>
-
+</head>
 <body>
 
 <div id="center">

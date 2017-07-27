@@ -1,7 +1,7 @@
 <html>
-<title>
+<head>
 	<link href="style.css">
-</title>
+</head>
 
 <body>
 
@@ -11,12 +11,12 @@
 <div id="home-center">
 
 <div id="home-left">
-	<center>
+	
 	<img alt="My Photo" src="images/MyPhoto.jpg">
 	<br>	
 	<a href="https://github.com/foxirving">GitHub</a>
 	<a href="https://www.linkedin.com/in/amy-irving-06732b100/">LinkedIn</a>
-	</center>
+	
 </div>
 
 <div id="home-right">
