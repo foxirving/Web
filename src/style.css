@@ -80,3 +80,9 @@ img {
   height: 800px;
   margin: auto;
 }
+#gallery-div {
+  width: 250px;
+  height: 250px;
+  border-style: solid;
+  border-width: 2px;
+}
