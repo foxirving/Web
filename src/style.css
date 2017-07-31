@@ -67,8 +67,6 @@ img {
   width: 30%;
   height: 100%;
   float: left;
-  border-style: double;
-  border-width: 2px;
 }
 #repository-div {
   width: 80%;
