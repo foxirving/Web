@@ -25,6 +25,7 @@ img {
   margin: auto;
   display: block;
   align: center;
+  overflow: auto;
 }
 #header {
   background-color: lightgray;
