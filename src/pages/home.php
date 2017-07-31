@@ -10,7 +10,7 @@
 
 		<div id="home-center">
 
-			<div id="home-left">
+			<div id="home-left" style="align-content: center">
 
 				<img alt="My Photo" src="images/MyPhoto.jpg"> <br> <a
 					href="https://github.com/foxirving">GitHub</a> <a
