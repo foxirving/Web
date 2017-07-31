@@ -13,8 +13,9 @@
 			<div id="home-left" style="align-content: center">
 
 				<img alt="My Photo" src="images/MyPhoto.jpg"> <br> <a
-					href="https://github.com/foxirving">GitHub</a> <a
+					href="https://github.com/foxirving">GitHub</a> <br> <a
 					href="https://www.linkedin.com/in/amy-irving-06732b100/">LinkedIn</a>
+				<br>
 
 			</div>
 
