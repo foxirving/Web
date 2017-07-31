@@ -41,6 +41,7 @@ img {
   color: black;
   text-decoration: none;
   margin: 0px 20px 0px 20px;
+  display: block;
 }
 #footer {
   background-color: lightgray;
