@@ -29,11 +29,12 @@ if (is_dir ( $dir )) {
 				$text = file_get_contents ( $dir . $file );
 				?>
      	 <div id="repository-div">
+				<p>
        		<?php
-				
 				echo $text;
 				?>
-   		 </div>
+			</p>
+			</div>
     	<?php
 			}
 		}
