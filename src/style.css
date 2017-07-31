@@ -51,9 +51,7 @@ img {
   width: 70%;
   height: 100px;
   margin: auto;
-  display: block;
-  position: relative;
-  bottom: 0;
+  display: flex;
 }
 #home-center {
   background-color: white;
