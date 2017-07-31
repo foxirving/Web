@@ -35,6 +35,8 @@ img {
   height: 100px;
   margin: auto;
   display: block;
+  position: absolute;
+  top: 0;
 }
 #headerLink {
   size: 25px;
@@ -50,6 +52,8 @@ img {
   height: 100px;
   margin: auto;
   display: block;
+  position: absolute;
+  bottom: 0;
 }
 #home-center {
   background-color: white;
