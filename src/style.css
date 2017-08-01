@@ -80,8 +80,8 @@ body {
   display: inline-block;
 }
 #image-wrapper {
-  width: 250px;
-  height: 250px;
+  max-width: 250px;
+  max-height: 250px;
   border-style: solid;
   border-width: 2px;
   padding: 5px;

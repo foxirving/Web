@@ -24,7 +24,7 @@ if (is_dir ( $dir )) {
        		<?php
        			echo $dir . $file;
 				?>
-   		 />
+   		  type="image/jpg"/>
    		 </div>
     	<?php
 			}
