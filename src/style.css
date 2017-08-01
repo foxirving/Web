@@ -5,13 +5,6 @@ body {
   width: 100%;
   display: inline;
 }
-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  margin: 25px;
-  width: 60%;
-}
 #text-large {
   font-size: 40px;
   margin: 0;
@@ -82,8 +75,15 @@ img {
   margin: auto;
 }
 #gallery-div {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+#image-wrapper {
   width: 250px;
   height: 250px;
   border-style: solid;
   border-width: 2px;
+  padding: 5px;
+  margin: 5px;
 }

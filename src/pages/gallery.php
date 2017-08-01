@@ -7,6 +7,9 @@
 
 <div id="center">
 
+<div id="gallery-div">
+
+
 <?php
 $dir = "gallery/";
 
@@ -16,11 +19,13 @@ if (is_dir ( $dir )) {
 		while ( ($file = readdir ( $dh )) !== false ) {
 			if ($file != "." && $file != "..") {
 				?>
+		<div id="#image-wrapper">
      	 <img src=
        		<?php
        			echo $dir . $file;
 				?>
    		 />
+   		 </div>
     	<?php
 			}
 		}
@@ -29,6 +34,7 @@ if (is_dir ( $dir )) {
 }
 ?>
 
+</div>
 </div>
 </body>
 
