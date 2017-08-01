@@ -5,6 +5,10 @@ body {
   width: 100%;
   display: inline;
 }
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
 #text-large {
   font-size: 40px;
   margin: 0;
