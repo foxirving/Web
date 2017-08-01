@@ -12,6 +12,7 @@
 @color-layer-two: lightgray;
 @color-layer-three: white;
 @color-text-one: black;
+@gallery-image-size: 250px;
 body {
 	background: @color-layer-one;
 	height: 100%;
@@ -20,8 +21,8 @@ body {
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: @gallery-image-size;
+    max-height: @gallery-image-size;
 }
 
 #text-large {
@@ -110,8 +111,8 @@ img {
 }
 
 #image-wrapper {
-	max-width: 250px;
-	max-height: 250px;
+	max-width: @gallery-image-size;
+	max-height: @gallery-image-size;
 	border-style: solid;
 	border-width: @standard-boarder-size;
 	padding: 5px;
