@@ -4,6 +4,7 @@
  <head>
  <title> Fox Irving </title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="scripts/main.js"></script>
 </head> 
 
 <body>
@@ -12,11 +13,8 @@
 <?php
 include_once('header.php');
 include('home.php');
-?>
 
-
-<?php 
-
+// Displays page when clicked the button.
 error_reporting(E_ALL ^ E_NOTICE); 
 function open_page($string){
     if (preg_match("/^[a-zA-Z]+$/", $string)){
